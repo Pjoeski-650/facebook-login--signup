@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: rgb(73, 216, 216);
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+#logo img{
+    display: flex;
+    width: 60px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-family: sans-serif;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+nav ul li button{
+    padding: 3px 10px;
+    border: none;
+    background-color: rgb(174, 233, 233);
+}
+#hero{
+    display: flex;
+    background-image: url('./Tomatoes.jpg');
+    height: 90vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+#hero p{
+    font-size: 20px;
+    text-align: center;
+}
+#hero button{
+    background-color: rgb(73, 216, 216);
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px; 
+    border-radius: 5px; 
+    margin: 5px; 
+}
+#hero #button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero #second-btn{
+    background-color: white;
+}
